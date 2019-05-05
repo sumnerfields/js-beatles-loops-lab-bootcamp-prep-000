@@ -12,3 +12,7 @@ function johnLennonFacts (facts) {
   }
   return johnLennon
 }
+
+function iLoveTheBeatles(number) {
+  
+}
