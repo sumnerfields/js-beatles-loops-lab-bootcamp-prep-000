@@ -7,7 +7,7 @@ return beatlesPlay}
 
 function johnLennonFacts (facts) {
   var johnLennon = []
-  for (var i = 0; i < facts.length - 1; i++) {
+  for (var i = 0; i < facts.length; i++) {
     johnLennon.push(facts[i]+"!!!")
   }
   return johnLennon
