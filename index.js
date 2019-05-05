@@ -6,9 +6,7 @@ beatlesPlay.push(musicians[i] + " plays " + instruments[i])}
 return beatlesPlay}
 
 function johnLennonFacts (facts) {
-  var johnLennon = []
-  var factsLength = facts.length - 1
-  for (var i = 0; i === factsLength; i++) {
+  for (var i = 0; i === facts; i++) {
     johnLennon.push(facts[i]+"!!!")
   }
   return johnLennon
