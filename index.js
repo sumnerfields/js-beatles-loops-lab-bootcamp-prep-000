@@ -13,11 +13,14 @@ function johnLennonFacts (facts) {
   return johnLennon
 }
 
-function 
+function incrementVariable(number) {
+  number = number + 1;
+  return number;
+}
 
 function iLoveTheBeatles(number) {
   var beatlesLove = []
   do {beatlesLove.push("I love the Beatles!")}
-  while (var num = number; num < 15; num++)
+  while (incrementVariable(number) < 15)
   return beatlesLove
 }
