@@ -13,9 +13,11 @@ function johnLennonFacts (facts) {
   return johnLennon
 }
 
+function 
+
 function iLoveTheBeatles(number) {
   var beatlesLove = []
   do {beatlesLove.push("I love the Beatles!")}
-  while (var num = number; num < 15; num++ )
+  while (var num = number; num < 15; num++)
   return beatlesLove
 }
