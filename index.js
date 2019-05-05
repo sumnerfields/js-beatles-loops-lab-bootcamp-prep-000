@@ -20,7 +20,10 @@ function incrementVariable(number) {
 
 function iLoveTheBeatles(number) {
   var beatlesLove = []
-  do {beatlesLove.push("I love the Beatles!")}
-  while (incrementVariable(number) < 15)
+  do {
+    beatlesLove.push("I love the Beatles!")
+    number = number + 1
+  }
+  while (number < 15)
   return beatlesLove
 }
